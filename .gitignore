@@ -1,0 +1,23 @@
+# Ignore everything inside data/
+data/*
+
+# BUT keep the .htaccess file so the folder stays protected on the server
+!data/.htaccess
+
+# Keep example files so new installs know the structure
+!data/*.example
+
+# Ignore everything inside uploads/
+uploads/*
+
+# BUT keep the root .htaccess
+!uploads/.htaccess
+
+# AND keep the images/ subfolder structure
+!uploads/images/
+
+# Inside images/, ignore everything again...
+uploads/images/*
+
+# ...except the protection file
+!uploads/images/.htaccess

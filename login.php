@@ -167,7 +167,6 @@ button:hover {
 <div class="card">
     <img src="image/logo.php" alt="" class="logo" onerror="this.style.display='none'">
     <h1>Panel administracyjny</h1>
-    <div class="sub">Dostęp autoryzowany</div>
 
     <?php if ($error !== null): ?>
         <div class="error"><?php echo html($error); ?></div>

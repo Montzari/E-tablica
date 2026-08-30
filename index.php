@@ -230,10 +230,10 @@ body {
 <div class="bottom-shade"></div>
 
 <div id="empty"<?php echo empty($images) ? '' : ' class="hidden"'; ?>>
-    <img src="image/logo.php" alt="" onerror="this.style.display='none'">
+    <img src="logo.png" alt="" onerror="this.style.display='none'">
 </div>
 
-<img id="logo" src="image/logo.php" alt="" onerror="this.style.display='none'">
+<img id="logo" src="logo.png" alt="" onerror="this.style.display='none'">
 
 <div class="clock">
     <div id="clock-time">--:--</div>

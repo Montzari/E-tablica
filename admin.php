@@ -526,9 +526,7 @@ input[type="text"] {
 <body>
 <header>
     <div class="brand">
-        <img src="image/logo.php" alt="" onerror="this.style.display='none'">
-        <span>Panel zdjęć</span>
-        <span class="badge badge-<?php echo html($role); ?>"><?php echo html(strtoupper($role)); ?></span>
+        <img src="logo.png" alt="" onerror="this.style.display='none'">
     </div>
 
     <nav>
@@ -550,8 +548,7 @@ input[type="text"] {
         <h2>Wgrywanie zdjęć</h2>
 
         <div id="dropzone">
-            <strong>Przeciągnij zdjęcia tutaj</strong>
-            <div class="muted">albo</div>
+            <strong>Przeciągnij zdjęcia tutaj albo</strong>
 
             <button type="button" id="browseBtn" class="btn btn-dark">Wybierz zdjęcia</button>
 

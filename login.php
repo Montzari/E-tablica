@@ -165,7 +165,7 @@ button:hover {
 </head>
 <body>
 <div class="card">
-    <img src="image/logo.php" alt="" class="logo" onerror="this.style.display='none'">
+    <img src="logo.png" alt="" class="logo" onerror="this.style.display='none'">
     <h1>Panel administracyjny</h1>
 
     <?php if ($error !== null): ?>
